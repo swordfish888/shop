@@ -1,0 +1,280 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f5f5f5;
+    height: 122px;
+    font-size: 0.8em;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 900px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 6px 0 #d8d8d8;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+main {
+    padding: 3px;
+}
+
+p {
+    margin: 1px 50px 0 995px;
+    float: none;
+    list-style: none;
+}
+
+p, p a {
+    font: normal 100%'trebuchet ms', sans-serif;
+    color: #2b3e8b;
+    text-decoration: none;
+}
+
+p a:hover {
+    color: #ec0a21;
+}
+
+html, .main, .logo, .menubar, .site_content {
+    margin: auto;
+}
+
+.logo {
+    width: 990px;
+    padding-bottom: 40px;
+}
+
+.popular_items {
+    padding: 100px 0 0 0 ;
+    font-size: 1.35em;
+    font-weight: normal;
+    line-height: 1.29167em;
+    margin-bottom: 0.58333em;
+    font-family: Arial, 'trebuchet ms', sans-serif;
+}
+
+#popular_items {
+    color: white;
+}
+
+.logo h1, .logo h2 {
+    font: normal 270% 'century gothic', arial, sans-serif;
+    margin: 0 0 0 20px;
+}
+
+.logo_text h1, .logo_text h1 a, .logo_text h1 a:hover {
+    padding: -15px 0 0 0;
+    color: #2b3e8b;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+}
+
+.logo_text h2 {
+    font-size: 1.1em;
+    padding: 2px 0 0 0;
+    color: black;
+}
+
+.menubar {
+    width: 900px;
+    height: 40px;
+}
+
+ul.menu {
+    float: none;
+}
+
+ul.menu li {
+    float: left;
+    padding: 0 0 0 9px;
+    list-style: none;
+    margin: 7px 50px 0 -35px;
+}
+
+ul.menu li.numbers, li a {
+    font: normal 100% 'trebuchet ms', sans-serif;
+    display: block;
+    padding: 6px 0 0 0;
+    color: #2b3e8b;
+    text-decoration: none;
+}
+
+ul.menu li.numbers {
+    color: black;
+}
+
+ul.menu li a:hover {
+    color: #ec0a21;
+}
+
+.site_content {
+    width: 650px;
+    margin: -80px auto 0 auto;
+    background-color: white;
+    box-sizing: border-box;
+}
+
+.sidebar_container {
+    float: right;
+}
+
+.sidebar {
+    float: right;
+    width: 352px;
+    padding: 5%;
+    margin: -38px 0 0 0;
+}
+
+.sidebar_login {
+    float: right;
+    width: 19%;
+    margin-left: 125%;
+    margin-top: -87px;
+}
+
+input[type="search"] {
+    color: #5d5d5d;
+    width: 70%;
+    padding: 5px;
+}
+
+input[type="text"], input[type="password"] {
+    color: #5d5d5d;
+    width: 42%;
+    margin: 0.4em;
+    padding: 2px;
+}
+
+.btn {
+    padding: 3px;
+    cursor: pointer;
+}
+
+.btn_login {
+    padding: 0.1em;
+    cursor: pointer;
+}
+
+.menu_items {
+    float: left;
+    width:200px;
+}
+
+.drop_menu_items {
+    list-style-type: none;
+    width: 198px;
+    margin: 0;
+    padding: 0;
+}
+
+.drop_menu_items  ul {
+    list-style-type: none;
+    width: 180px;
+    margin: 0;
+    padding: 0;
+}
+
+.drop_menu_items > li{
+    position: relative;
+    background: url(../img/vert_css_menu_0.png) no-repeat 0 0;
+    padding:10px 0 10px 16px;
+    border-top: 1px solid White;
+}
+
+.drop_menu_items > li:hover {
+    background: url(../img/vert_css_menu_1.png) no-repeat 0 0;
+}
+
+.drop_menu_items > li > a{
+    font-size:18px;
+    color: White;
+    text-decoration:none;
+}
+
+.drop_menu_items li ul {
+    position: absolute;
+    display: none;
+    top: 2px;
+    left: 195px;
+}
+
+.drop_menu_items li:hover ul {
+    display: block;
+}
+
+.drop_menu_items li ul li{
+    text-align:left;
+    background: #59C113;
+    padding: 8px 0 8px 10px;
+}
+
+.drop_menu_items li ul li:hover {
+    background: #87DA50;
+
+}
+
+.drop_menu_items li ul li a{
+    font-size:14px;
+    color:White;
+    text-decoration:none;
+}
+
+.drop_menu_items li ul li a:hover{
+    font-size: 14px;
+    color: White;
+    text-decoration:none;
+}
+
+.rekl_img {
+    margin: 80px 0 0 400px;
+}
+
+main section div {
+    float: left;
+    width: 24%;
+}
+main section div img {
+    width: 80%;
+}
+
+footer {
+    min-height: 500%;
+    position: relative;
+}
+
+#footer_conteiner {
+    height: 40px;
+}
+
+#footer {
+    background-color: #f5f5f5;
+    height: 152px;
+    font-size: 0.8em;
+    margin-left: 0;
+    margin-right: 0;
+    min-width: 900px;
+    box-sizing: border-box;
+    box-shadow: inset 0 1px 6px 0 #d8d8d8;
+}
+
+.copy {
+    font-size: 0.92308em;
+    line-height: 1.33333em;
+    font-style: normal;
+    padding: 5px;
+}
+
+.schedule-l-i {
+    line-height: 1.23077em;
+    list-style-type: none;
+    padding: 5px;
+}
+
+.displacement {
+    margin-left: 20%;
+    padding: 5px;
+    line-height: 1.5;
+}
